@@ -1,3 +1,27 @@
 body {
     background-color: rgb(188, 255, 233);
 }
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.shape {
+    height: 30vh;
+    width: 30vw;
+    background-color: white;
+}
+
+.button {
+    background-color:rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border: none;
+}
