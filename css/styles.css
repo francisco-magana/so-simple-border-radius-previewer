@@ -17,6 +17,7 @@ body {
     height: 30vh;
     width: 30vw;
     background-color: white;
+    border-radius: 0px;
 }
 
 .controls-container {
@@ -29,7 +30,7 @@ body {
 .button {
     background-color:rgb(255, 255, 255);
     height: 30px;
-    width: 30px;
+    width: 100%;
     border: none;
 }
 

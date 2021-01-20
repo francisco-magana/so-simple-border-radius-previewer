@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <title>Border Radius Previewer</title>
 </head>
 <body>
     <h1 class="title">CSS Border Radius Previewer</h1>
     <div class="container">
-        <div class="shape">
+        <div class="shape" id="shape">
 
         </div>
     </div>
@@ -19,6 +20,16 @@
         <div id="general">
             <button class="button" id="general-button-plus">+</button>
             <button class="button" id="general-button-minus">-</button>
+        </div>
+        <label for="corners">4 Courners</label>
+        <div id="corners">
+            <input type="number" id="up-left" min="0" value="0" max="100">
+            <input type="number" id="up-right" min="0" value="0" max="100">
+            <input type="number" id="down-left" min="0" value="0" max="100">
+            <input type="number" id="down-right" min="0" value="0" max="100">
+        </div>
+        <div>
+            <button class="button" id="reset">Reset</button>
         </div>
     </div>
     <script src="src/main.js"></script>
